@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.message {
+  background-color: #2d323b;
+  padding: 1rem;
+  display: block;
+  color: white;
+  margin-bottom: 0.3rem;
+  border-radius: 1rem;
+  width: 30rem;
+  text-align: left;
+}
+.message p {
+  margin: 0.1rem;
+  width: 100%;
+  overflow-wrap: anywhere;
+}
+.chatBox {
+  background-color: #2d323b;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  border-radius: 1rem;
+  position: fixed;
+  top: 90%;
+}
+input {
+  border: #282c34;
+  border-radius: 1rem;
+  font-size: larger;
+  background-color: #31363f;
+  padding-left: 1rem;
+  color: white;
+}
+.sendButton {
+  margin-left: 1rem;
+  border-radius: 1rem;
+  border: #282c34;
+  background-color: #31363f;
+  font-size: large;
+  color: white;
+}
