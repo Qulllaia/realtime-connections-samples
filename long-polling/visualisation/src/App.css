@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+html,
+body {
+  height: 100vh;
+}
+
+.form {
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: rgb(188, 182, 182);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+input,
+button {
+  padding: 0.3rem;
+  border-radius: 1rem;
+  border-color: transparent;
+  font-size: 1rem;
+  margin: 0.1rem;
+}
+input {
+  width: 30rem;
+}
+
+.message-column {
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+}
+.message {
+  border: 1px solid rgb(188, 182, 182);
+  width: 30rem;
+  height: max-content;
+  margin-top: 1rem;
+}
